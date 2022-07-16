@@ -1,0 +1,95 @@
+.Chat {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Chat textarea {
+  resize: none;
+  background-color: #101010;
+  color: #ffffff;
+  border-color: #222222;
+}
+
+.panel {
+  resize: none;
+  flex-grow: 1;
+  display: flex;
+  
+  flex-direction: column;
+  border-color: #222222;
+  margin-bottom: 0px;
+}
+
+.panel-heading {
+  flex-shrink: 0;
+  background-color: #191919;
+  color: white;
+  border-color: #222222;
+  display: flex;
+  font-size: large;
+  padding-left: 120px;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  border-bottom: 1px solid white;
+  
+}
+
+.panel-body {
+  
+  flex-grow: 1;
+  display: block;
+  max-height: 68vh;
+  flex-direction: column-reverse;
+  overflow-x: hidden;
+  overflow-y:scroll;
+  word-wrap: break-word;
+  scroll-behavior: smooth;
+  resize: none;
+  background-color: #202020;
+  box-sizing: border-box;
+  
+  
+}
+
+.panel-body > div {
+  margin-bottom: auto;
+}
+
+.panel-footer {
+  background-color: #202020;
+  border-color: #222222;
+  
+}
+.chatFooter{
+  width:fit-content;
+  margin-top: 6px;
+  width: 100%;
+  height: 40px;
+}
+.chatFooter>button{
+  height: 40px;
+  width:30px;
+}
+.footer-input{
+  background-color: lightslategray;
+  width:306px;
+  height:40px;
+}
+.Chat #chat-username {
+  color: yellow;
+  display: inline;
+
+}
+
+.Chat #chat-message {
+  margin-top: 20px;
+  color: #ffffff;
+  display: inline;
+  
+
+  
+  
+}
+

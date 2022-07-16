@@ -1,0 +1,74 @@
+.Live1{
+    display: flex;
+    gap: 2rem;
+    resize: none;
+    background-color:beige;
+    
+}
+.video{
+    height:100vh;
+    width: 70%;
+}
+.video-container{
+    
+    height: 70vh;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    box-shadow:gray;
+    border:2px solid gray;
+}
+
+
+
+.video1{
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+    object-fit: contain;
+    -o-object-fit: cover;
+    
+    background: #232a34;
+}
+.video-heading{
+    display: flex;
+    
+    justify-content: space-between;
+    margin-left: 8px;
+    padding: 0;
+    list-style-type: none;
+   
+}
+.video-title{
+    
+    justify-content: left;
+    text-align: left;
+}
+.Follow-button{
+ 
+   border: 2px solid black;
+   height: 40px;
+   width:100px;
+   border-radius: 5px;
+   padding-top: 5px;
+   margin-top: 30px;
+   margin-right: 0;
+   text-align: center;
+   background-color: red;
+   color: aliceblue;
+  
+}
+.Follow-button>
+.video-title>h3{
+    color: grey;
+}
+.chat-container{
+    resize: none;
+    border: 2px solid black;
+    width: 25%;
+    max-width: 25%;
+    margin-top: 50px;
+    height: 80vh;
+    max-height: 80vh;
+    
+}
